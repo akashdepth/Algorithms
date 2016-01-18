@@ -8,13 +8,20 @@ Step 3 :  git init Algorithms
 
 Step 4 :  cd Algorithms
 
-Step 5 : gedit "your file name"
+Step 5 :  gedit "your file name"
 
-Step 6 : git add "your file name"
+Step 6 :  git  add "your file name"
 
-Step 7 : git commit -m "some_message_about_this_file"
+Step 7 :  git commit -m "some_message_about_this_file" <-Commit the changes you made.->
 
-Step 8 : git remote add origin "Url"
+Step 8 :  git remote add origin "https://github.com/akashdepth/Algorithms.git" <- Connect the staging area to the remote->
 
-Step 9 :  git push origin master <--  Pushing files in local repository to GitHub repository  -->
+Step 9 :  git status
+
+Step 10 : git pull origin master
+
+Step 9 :  git push -u origin master <--  Pushing files in local repository to GitHub repository  -->
+
+# Enter your github username and your password.
+
 
