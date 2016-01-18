@@ -1,0 +1,20 @@
+step 0 :  set proxy to git-hub
+
+Step 1 :  git config --global user.name "YOUR NAME"
+
+Step 2 :  git config --global user.email "YOUR EMAIL ADDRESS"
+
+Step 3 :  git init Algorithms
+
+Step 4 :  cd Algorithms
+
+Step 5 : gedit "your file name"
+
+Step 6 : git add "your file name"
+
+Step 7 : git commit -m "some_message_about_this_file"
+
+Step 8 : git remote add origin "Url"
+
+Step 9 :  git push origin master <--  Pushing files in local repository to GitHub repository  -->
+
