@@ -1,27 +1,41 @@
-step 0 :  set proxy to git-hub
+Step 0 :sudo apt-get install git <-if you face problem check /etc/apt/apt.conf file and set proxy if require and set also terminal proxy also->
 
-Step 1 :  git config --global user.name "YOUR NAME"
 
-Step 2 :  git config --global user.email "YOUR EMAIL ADDRESS"
+		 export http_proxy=http://172.31.100.30:3128/
+		 export https_proxy=$http_proxy
+ 		 export ftp_proxy=$http_proxy
+ 		 export rsync_proxy=$http_proxy
+ 		 export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com
 
-Step 3 :  git init Algorithms
 
-Step 4 :  cd Algorithms
 
-Step 5 :  gedit "your file name"
+Step 1 : git config --global user.name "YOUR NAME"
 
-Step 6 :  git  add "your file name"
+Step 2 : git config --global user.email "YOUR EMAIL ADDRESS"
 
-Step 7 :  git commit -m "some_message_about_this_file" <-Commit the changes you made.->
+Step 3 : git init Algorithms
 
-Step 8 :  git remote add origin "https://github.com/akashdepth/Algorithms.git" <- Connect the staging area to the remote->
+Step 4 : cd Algorithms
 
-Step 9 :  git status
+Step 5*: gedit "your file name"
 
-Step 10 : git pull origin master
+Step 6*: git  add "your file name"
 
-Step 9 :  git push -u origin master <--  Pushing files in local repository to GitHub repository  -->
+Step 7*: git commit -m "some_message_about_this_file" <-Commit the changes you made.->
 
-# Enter your github username and your password.
+Step 8 : git remote add origin "https://github.com/akashdepth/Algorithms.git" <- Connect the staging area to the remote->
 
+Step 9 :git config --global credential.helper cache <--Git ask every time username and password ,use the credential memory cache to store them->
+
+Step 10 : git config --global credential.helper 'cache --timeout=3600' <-Set the cache to timeout after 1 hour (setting is in seconds)-->
+
+Step 11*: git pull origin master
+
+Step 12*: git status
+
+Step 13*:  git push origin master <--  Pushing files in local repository to GitHub repository and Enter your github username and your password-->
+
+Once follow all steps after that * steps would be used only to work for Algorithms.
+
+Add efficient,rare Algorithms only in a simplest way.
 
